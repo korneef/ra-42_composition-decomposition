@@ -1,0 +1,13 @@
+.tv-program__list-element-time {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.tv-program__list-element-title {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.tv-program__list-element-tv-program-name {
+  color: #6e6e6e
+}

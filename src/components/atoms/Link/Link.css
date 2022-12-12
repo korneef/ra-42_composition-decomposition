@@ -1,0 +1,13 @@
+.element-link {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 0;
+}
+
+.element-link:hover {
+  text-decoration: none;
+}
+
+.header-link {
+  color: #4764fa;
+}

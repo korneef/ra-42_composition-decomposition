@@ -1,0 +1,20 @@
+.exchange__list {
+  display: flex;
+}
+
+.exchange__list-element {
+  margin-right: 15px;
+}
+
+.exchange__list-element-valute {
+  font-weight: 700;
+}
+
+.exchange__list-element-value {
+  font-weight: 600;
+}
+
+.exchange__list-element-change {
+  font-weight: 500;
+  color: #828282
+}

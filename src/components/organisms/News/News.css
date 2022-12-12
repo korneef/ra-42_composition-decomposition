@@ -1,0 +1,16 @@
+.news__headers-list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.news__header {
+  margin-right: 15px;
+}
+
+.news__second-header {
+  margin-right: 15px;
+}
+
+.news__second-header-link {
+  color: #7f94ff
+}

@@ -1,0 +1,16 @@
+.weather__container {
+  display: flex;
+  align-items: center;
+}
+
+.weather__image {
+  width: 90px;
+}
+
+.weather__tepmerature {
+  font-size: 20px;
+}
+
+.weather__data-future {
+  margin-left: 10px;
+}

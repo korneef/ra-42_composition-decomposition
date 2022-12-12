@@ -1,0 +1,24 @@
+.search-panel {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-panel__list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.search-panel__list-element {
+  margin-right: 10px;
+}
+
+.search-panel__search-form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.search-panel__search-input {
+  flex-grow: 1;
+}

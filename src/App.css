@@ -1,0 +1,24 @@
+/* atoms import first */
+@import url('./components/atoms/Icon/Icons.css');
+@import url('./components/atoms/Link/Link.css');
+@import url('./components/atoms/Header/Header.css');
+
+/* molecules import second */
+@import url('./components/molecules/List/List.css');
+@import url('./components/molecules/ListItem/ListItem.css');
+
+/* organisms import third */
+@import url('./components/organisms/News/News.css');
+@import url('./components/organisms/ExchaneRate/ExchangeRate.css');
+@import url('./components/organisms/Visited/Visited.css');
+@import url('./components/organisms/Broadcasts/Broadcasts.css');
+@import url('./components/organisms/TVProgram/TVProgram.css');
+@import url('./components/organisms/SearchPanel/SearchPanel.css');
+@import url('./components/organisms/Weather/Weather.css');
+
+/* page style import */
+@import url('./components/pages/HomePage/HomePage.css');
+
+.App {
+  padding: 10px;
+}
