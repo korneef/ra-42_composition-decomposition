@@ -17,7 +17,7 @@ export default function Weather({ className }) {
       <div className={`${elementClassName}__container`}>
 
         <div className={`${elementClassName}__data-current`}>
-          <img className={`${elementClassName}__image`} src="ra-42_composition-decomposition/icons/weather/cloudy.svg" alt="" />
+          <img className={`${elementClassName}__image`} src="icons/weather/cloudy.svg" alt="" />
           <span className={`${elementClassName}__tepmerature`}>{weatherData.actualTemperature}</span>
         </div>
 

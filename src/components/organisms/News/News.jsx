@@ -22,7 +22,7 @@ export default function News(props) {
           return (
             <ListItem className={`${className}`} key={index}>
               <Link className={`${className}__list-item`} link={item.link}>
-                <Icon src={`ra-42_composition-decomposition/icons/newsCreators/${item.newscreator}.png`} newsCreator={item.newscreator} alt={alt} />
+                <Icon src={`icons/newsCreators/${item.newscreator}.png`} newsCreator={item.newscreator} alt={alt} />
                 {item.title}
               </Link>
             </ListItem>)

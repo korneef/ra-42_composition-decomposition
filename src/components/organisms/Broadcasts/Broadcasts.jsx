@@ -20,7 +20,7 @@ export default function Broadcasts({ className }) {
           return (
             <ListItem key={index} className={elementClassName}>
               <Link className={elementClassName} link='#'>
-                <Icon src='ra-42_composition-decomposition/icons/media-play.png'/>
+                <Icon src='icons/media-play.png'/>
                 <span className={`${elementClassName}__list-element-title`}>{item.title}</span>
                 <span className={`${elementClassName}__list-element-chanel-name`}>{item.channelName}</span>
               </Link>
