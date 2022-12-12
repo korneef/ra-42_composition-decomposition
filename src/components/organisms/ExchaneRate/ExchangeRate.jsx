@@ -1,6 +1,12 @@
 import { ListItem, List } from '../../index';
 import { exchangeData } from '../../../data/data';
 
+/**
+ * Элемент ExchangeRate ненумерованый список куросв валют. 
+ * В ненумерованный список необхдимо передавть массив объектов содержащих ключи code, value, change, exchangeName(необязательный параметр).
+ * В элемент key передано значение index массива только для исключения предупреждения React, в реальном проекте следует передавать в key уникальное значение.
+ */
+
 export default function ExchangeRate(props) {
   const className = 'exchange'
   return (

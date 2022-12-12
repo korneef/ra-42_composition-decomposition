@@ -16,6 +16,10 @@ import Weather from "./organisms/Weather/Weather";
 
 import HomePage from "./pages/HomePage/HomePage";
 
+/**
+ * Файл для удобного импорта различных элементов React
+ */
+
 export { Header, Link, Icon };
 export { List, ListItem };
 export { News, ExchangeRate, Broadcasts, Visited, TVProgram, Map, SearchPanel, HomePage, Weather };

@@ -26,3 +26,8 @@ deploy_task:
     - git config --global user.email "ci@cirruslabs.org"
     - git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$USER/$REPO
     - npm run build && npx push-dir --dir=build --branch=gh-pages --force --verbose
+  wiki:
+    - git config --global user.name "Cirrus-CI"
+    - git config --global user.email "ci@cirruslabs.org"
+    - git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$USER/$REPO/wiki
+    - npm run styleguide:build && npx push-dir --dir=styleguide --branch=gh-pages-wiki --force --verbose

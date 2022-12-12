@@ -2,6 +2,12 @@ import { Header, Link, List, ListItem, Icon } from '../../index';
 import { broadcastData } from '../../../data/data';
 import classNames from 'classnames';
 
+/**
+ * Элемент Broadcasts возвращает заголовок и ненумерованый список. 
+ * В ненумерованный список необхдимо передавть массив объектов содержащих ключи title, channelName.
+ * В элемент key передано значение index массива только для исключения предупреждения React, в реальном проекте следует передавать в key уникальное значение.
+ */
+
 export default function Broadcasts({ className }) {
   const elementClassName = 'broadcasts'
   const classes = classNames({[className + '__element']: className}, elementClassName);

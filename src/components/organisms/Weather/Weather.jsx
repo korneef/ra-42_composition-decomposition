@@ -2,6 +2,11 @@ import { Header } from '../../index';
 import { weatherData } from '../../../data/data';
 import classNames from 'classnames';
 
+/**
+ * Элемент Weather возвращает блок с прогнозом погоды. 
+ * В элемент необхдимо передавть объект содержащий ключи actualTemperature, morningTemperature, dayTempareture.
+ */
+
 export default function Weather({ className }) {
   const elementClassName = 'weather'
   const classes = classNames({ [className + '__element']: className }, elementClassName);
